@@ -1,0 +1,8 @@
+{
+    "webServer": {
+        "$comment": "Set the 'host' to the host interface IP address you want the web server to run on, or set to 0.0.0.0 to bind to all interfaces. Set the 'port' to the port number to serve on",
+
+        "host": "0.0.0.0",
+        "port": 8080
+    }
+}

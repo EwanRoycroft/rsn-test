@@ -1,0 +1,11 @@
+# Node plugins
+node_modules
+
+# Local project configuration
+config.json
+
+# Local project assets
+assets
+
+# Build files
+build
