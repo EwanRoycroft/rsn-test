@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+
+    &.hasFocusedChild {
+        background-color: grey;
+    }
+
+    &.focus {
+        background-color: yellow;
+    }
+
+    .focusable {
+        width: 400px;
+        height: 200px;
+
+        background-color: red;
+        color: white;
+
+        &.focus {
+            background-color: green;
+        }
+    }
+
+    &.popup {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
