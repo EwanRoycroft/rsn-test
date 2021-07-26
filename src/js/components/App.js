@@ -28,7 +28,7 @@ const Page1 = withFocusable({ trackChildren: true })((props) => {
 
     useEffect(() => console.log('Page1 mounted'));
 
-    useEffect(() => props.setFocus('focusableA0'), []);
+    useEffect(() => props.setFocus('focusableA0'));
 
     return (
         <div
@@ -54,7 +54,7 @@ const Page2 = withFocusable({ trackChildren: true })((props) => {
 
     useEffect(() => console.log('Page2 mounted'));
 
-    useEffect(() => props.setFocus('focusableB0'), []);
+    useEffect(() => props.setFocus('focusableB0'));
 
     return (
         <div
