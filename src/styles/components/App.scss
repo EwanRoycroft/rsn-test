@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 1280px;
+    height: 720px;
+    outline: 1px solid black;
+}
+
+* {
+    scroll-margin: 50px;
+}

@@ -12,6 +12,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@noriginmedia/norigin-spatial-navigation": "^1.0.1",
+        "react-router-dom": "^5.2.0",
         "webpack": "^5.13.0"
     },
     "devDependencies": {
